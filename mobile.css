@@ -80,8 +80,8 @@ body {
   }
   
   .footer1 {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-rows: auto auto;
     justify-content: center;
     background-color: #131313;
     height: 200px;
@@ -94,8 +94,8 @@ body {
   }
   
   .footer-icons {
-    order: 1;
-    padding-top: 80px;
+    grid-row-start: 1;
+    padding-top: 50px;
     vertical-align: middle;
   }
   
@@ -119,12 +119,14 @@ body {
   }
   
   .icon {
-    height: 150px;
-    width: 40px;
     border-radius: 50%;
-    background-color: #555;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #333;
     margin: 7px;
-    border: 2px solid #555;
+    border: 2px solid #333;
+    align-items: center;
   }
   
   .icon:hover {
@@ -132,7 +134,8 @@ body {
   }
   
   .lasts-links {
-    margin-left: 50px;
+    grid-row-start: 2;
+    margin-left: 78px;
   }
   
   .lasts-links a {
@@ -153,6 +156,10 @@ body {
     color: white;
   }
   
+  footer{
+    width: 100%;
+  }
+
   .footer span {
     color: #aaaa;
     font-size: 13px;
