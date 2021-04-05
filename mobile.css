@@ -180,6 +180,10 @@ body {
     order: 2;
     margin-top: 25px;
   }
+
+  .conateiner1 {
+    width: 100%;
+  }
   
   .last-word {
     color: #aaa;

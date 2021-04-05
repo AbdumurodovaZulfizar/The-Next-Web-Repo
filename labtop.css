@@ -11,6 +11,10 @@ header {
   justify-content: flex-start;
 }
 
+.conateiner1 {
+  width: 100%;
+}
+
 .horizontal-line {
   display: inline;
   visibility: visible;
