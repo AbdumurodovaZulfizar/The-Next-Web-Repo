@@ -1,1 +1,30 @@
+* ¨{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+}
+
+body {
+    padding-top: 20px;
+}
+
+.firstheader, .unvisible {
+    display: none;
+    visibility: hidden;
+}
+
+.secondheader {
+    border: black 1px solid;
+    height: fit-content;
+}
+
+.icons {
+    position: relative;
+    float: right;
+    border: 1px solid black;
+    margin: 10px;
+}
 
