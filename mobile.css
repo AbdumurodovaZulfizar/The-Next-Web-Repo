@@ -1,3 +1,5 @@
+@import url(//db.onlinewebfonts.com/c/5c773d1586db24bd45dfd4af3a4542e7?family=Shentox);
+
 body {
     margin: 1px;
     overflow-x: hidden;
@@ -52,8 +54,7 @@ body {
   
   .thirdheader {
     width: 100%;
-    height: 50px;
-    background-color: yellow;
+    background-color: #FFDD33;
     order: 2;
   }
   
@@ -365,7 +366,7 @@ body {
     height: 50px;
     width: 100%;
     background-color: #f7c5bb;
-    margin-top: -54px;
+    margin-top: -55px;
   }
   
   .title-1 {
@@ -386,7 +387,10 @@ body {
   }
   
   .type p {
+    font-family: "Shentox";
+    font-weight: 500;
     font-size: 13px;
+    letter-spacing: .04em;
     margin-top: -1px;
   }
   
@@ -399,13 +403,14 @@ body {
     background-color: #faeeeb;
     height: 180px;
     width: 100%;
+    margin-top: -13px;
     margin-bottom: 20px;
   }
   
   .img {
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
     margin: 10px;
-    margin-top: -62px;
+    margin-top: -72px;
   }
 

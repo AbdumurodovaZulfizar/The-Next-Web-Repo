@@ -54,6 +54,12 @@ header {
   font-size: 13px;
 }
 
+.firstheader a {
+  font-family: ARSMaquettePro-Light, Times, serif;
+  color: #fff9;
+  font-size: 13px;
+}
+
 .nav-links:hover {
   color: #fff;
 }
@@ -80,9 +86,20 @@ header {
   margin-right: -20px;
 }
 
+.thirdheader {
+  text-align: left;
+  height: fit-content;
+}
+
 .thirdheader p {
-      margin-left: 15px;
-      color: black;
+  margin-left: 15px;
+  color: black;
+  font-size: 14px;
+  font-family: 'ARSMaquettePro-Regular';
+}
+
+.date {
+  visibility: hidden;
 }
 
 .unvisible {
@@ -113,7 +130,7 @@ header {
   height: 420px;
   margin-bottom: 200px;
 }
-  
+
 .mini-container1 {
   order: 1;
   width: 64%;
@@ -122,7 +139,7 @@ header {
   grid-template-rows: 2% 43% 55%;
   margin-top: 130px;
 }
-  
+
 .mini-container1 .item1 {
   grid-row-start: 3;
 }
@@ -137,16 +154,16 @@ header {
   line-height: 40px;
   grid-row-start: 3;
 }
- 
+
 .mini-container-1-2 {
   width: 35%;
   order: 2;
   float: right;
-  margin-top: -430px;
+  margin: -430px auto auto -10px;
 }
 
 .mini-container2 .highlight-title,
-    .mini-container3 .highlight-title {
+.mini-container3 .highlight-title {
   font-size: 20px;
 }
 
@@ -163,4 +180,3 @@ header {
 .container-images-3 {
   width: 95%;
 }
-
