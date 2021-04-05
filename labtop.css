@@ -126,7 +126,7 @@ header {
   justify-content: center;
   align-items: stretch;
   align-content: center;
-  width: 100%;
+  width: 120%;
   height: 420px;
   margin-bottom: 200px;
 }
@@ -179,4 +179,8 @@ header {
 .container-images-2,
 .container-images-3 {
   width: 95%;
+}
+
+footer{
+  width:120px;
 }
