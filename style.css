@@ -1,1 +1,52 @@
 
+.TNW-logo,
+.date {
+  visibility: visible;
+  display: inline;
+}
+
+.date {
+  grid-row-start: 1;
+  margin-left: 80%;
+  color: #fff;
+}
+
+.TNW-logo {
+  height: 100px;
+  width: 40%;
+  grid-row-start: 2;
+  margin-left: 10px;
+}
+
+.mini-container1 {
+  background-image:
+    linear-gradient(
+      to right bottom,
+      rgba(196, 13, 13, 0.95),
+      rgba(0, 0, 0, 1)
+    ),
+    url(./next-web-images/next-web1.jpg);
+  grid-template-rows: 2%  53% 45%;
+}
+
+.add {
+  float: right;
+  margin-right: -30%;
+  align-content: flex-start;
+  margin-top: -55px;
+}
+
+.unvisibles {
+  visibility: visible;
+  display: inline;
+}
+
+.mini-container1 .item1 {
+  grid-row-start: 3;
+}
+
+.container3-items-row1 {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
