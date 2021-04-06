@@ -33,7 +33,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://abdumurodovazulfizar.github.io/Next-web-repo/)
+[Live Demo Link](https://abdumurodovazulfizar.github.io/The-Next-Web-Repo/)
 
 ## Getting Started
 
