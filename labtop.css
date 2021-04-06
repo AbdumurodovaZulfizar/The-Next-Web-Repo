@@ -8,6 +8,7 @@ header {
 }
 
 .add {
+  margin-top: -20px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -225,6 +226,13 @@ header {
 .container-images-2,
 .container-images-3 {
   width: 95%;
+}
+
+.container-images-1,
+.container-images-2,
+.container-images-3,
+.container-images-4 {
+  margin-top: -135px;
 }
 
 footer{
