@@ -49,7 +49,8 @@ body {
   
   .secondheader .icons {
     order: 2;
-    font-size: 30px;
+    right: 0;
+    font-size: 18px;
   }
   
   .thirdheader {
@@ -85,7 +86,7 @@ body {
     grid-template-rows: auto auto;
     justify-content: center;
     background-color: #131313;
-    height: 200px;
+    height: fit-content;
   }
   
   .footer {
@@ -95,22 +96,23 @@ body {
   }
   
   .footer-icons {
+    text-align: center;
     grid-row-start: 1;
-    padding-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 30px;
     vertical-align: middle;
   }
   
-  .footer img {
-    width: 60px;
-    height: 30px;
-  }
-
-  .footer-logo{
-      margin:43px 14px 0px 14px;
+  .footer-logo {
+    width: 40px;
+    height: 20px;
+    margin: auto 4px -5px auto;
   }
 
   .stackpath{
-      margin:20px 10px -12px 10px;
+      margin: 15px 10px -11px 2px;
+      width: 60px;
+      height: 30px;
   }
   
   .footer-icons i {
@@ -127,7 +129,7 @@ body {
     height: 35px;
     width: 35px;
     background-color: #333;
-    margin: 7px;
+    margin: auto 1px auto 1px;
     border: 2px solid #333;
     align-items: center;
   }
@@ -137,14 +139,18 @@ body {
   }
   
   .lasts-links {
+    text-align: center;
     grid-row-start: 2;
-    margin-left: 78px;
+    margin-top: 30px;
   }
   
   .lasts-links a {
-    text-decoration: none;
+    font-family: "Shentox";
+    font-weight: 500;
     color: #aaa;
+    text-decoration: none;
     font-size: 13px;
+    margin: auto 4px auto auto;
   }
   
   .title-1 a {
@@ -160,6 +166,7 @@ body {
   }
   
   footer{
+    text-align: center;
     width: 100%;
   }
 
@@ -172,6 +179,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    text-align: center;
   }
   
   .footer-page img {

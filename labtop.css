@@ -1,3 +1,4 @@
+
 header {
   display: flex;
   position: fixed;
@@ -14,8 +15,8 @@ header {
 
 .conateiner1 {
   width: 100%;
-  max-width: 100%;
-  margin: auto;
+  max-width: 1025px;
+  margin: -13px auto auto auto;
 }
 
 .horizontal-line {
@@ -88,23 +89,29 @@ header {
 }
 
 .secondheader {
+  margin-top: 5px;
   position: relative;
 }
 
 .secondheader a {
-
+  font-family: "Shentox";
+  text-decoration: none;
+  color: #aaa;
+  letter-spacing: .04em;
+  font-weight: 500;
+  font-size: 13px;
 }
 
 .icons {
   margin-left: auto;
   float: right;
   margin-right: -20px;
-  width: 6.5%;
 }
 
-.icons a {
-  width: 1px;
-  height: 1px;
+.secondheader .icons {
+  order: 2;
+  right: 0;
+  font-size: 18px;
 }
 
 .thirdheader {
