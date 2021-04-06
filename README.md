@@ -21,12 +21,12 @@
 <ul>
 <li>GitHub</li>
 <li>Git</li>
-<li>Visula Studio Code</li>
+<li>Visual Studio Code</li>
 <li>Extensions
 <ol>
 <li>Live Server</li>
 <li>Prettier</li>
-<li>differeent types of Linters</li>
+<li>different types of Linters</li>
 </ol>
 </li>
 </ul>
@@ -66,4 +66,4 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - For information: Microverse
-- You can be software developer only if you want😊
+- You can be software developer only if you want 😊
