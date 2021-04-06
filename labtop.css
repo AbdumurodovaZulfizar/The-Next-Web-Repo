@@ -1,3 +1,4 @@
+
 header {
   display: flex;
   position: fixed;
@@ -14,8 +15,8 @@ header {
 
 .conateiner1 {
   width: 100%;
-  max-width: 100%;
-  margin: auto;
+  max-width: 1025px;
+  margin: -13px auto auto auto;
 }
 
 .horizontal-line {
@@ -32,7 +33,7 @@ header {
 }
 
 .firstheader {
-  display:block;
+  display: block;
   flex-direction: row;
   visibility: visible;
   background-color: black;
@@ -88,24 +89,29 @@ header {
 }
 
 .secondheader {
+  margin-top: 5px;
   position: relative;
 }
 
 .secondheader a {
-  font-size: 14px;
- font-family: Shentox;
+  font-family: "Shentox";
+  text-decoration: none;
+  color: #aaa;
+  letter-spacing: .04em;
+  font-weight: 500;
+  font-size: 13px;
 }
 
 .icons {
   margin-left: auto;
   float: right;
   margin-right: -20px;
-  width: 6.5%;
 }
 
-.icons a {
-  width: 1px;
-  height: 1px;
+.secondheader .icons {
+  order: 2;
+  right: 0;
+  font-size: 18px;
 }
 
 .thirdheader {
@@ -222,100 +228,6 @@ header {
 }
 
 footer{
+  text-align: center;
   width: 100%;
-}
-
-.footer1 {
-  display: grid;
-  grid-template-rows: auto auto;
-  justify-content: center;
-  background-color: #131313;
-  height: 200px;
-}
-
-.footer {
-  background-color: #000;
-  height: 97px;
-  align-items: center;
-}
-
-.footer-icons {
-  grid-row-start: 1;
-  padding-top: 50px;
-  vertical-align: middle;
-}
-
-.footer img {
-  width: 60px;
-  height: 30px;
-}
-
-.footer-logo{
-    margin:43px 14px 0px 14px;
-}
-
-.stackpath{
-    margin:20px 10px -12px 10px;
-}
-
-.footer-icons i {
-  font-size: 16px;
-  padding: 12px;
-  color: white;
-  margin-left: -2px;
-  margin-top: -3px;
-}
-
-.icon {
-  border-radius: 50%;
-  display: inline-block;
-  height: 35px;
-  width: 35px;
-  background-color: #333;
-  margin: 7px;
-  border: 2px solid #333;
-  align-items: center;
-}
-
-.icon:hover {
-  background-color: #000;
-}
-
-.lasts-links {
-  grid-row-start: 2;
-  margin-left: 78px;
-}
-
-.lasts-links a {
-  text-decoration: none;
-  color: #aaa;
-  font-size: 13px;
-}
-
-.lasts-links a:hover {
-  color: white;
-}
-
-footer{
-  width: 100%;
-}
-
-.footer span {
-  color: #aaaa;
-  font-size: 13px;
-}
-
-.footer-page {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-
-.footer-page img {
-  order: 1;
-}
-
-.footer-page span {
-  order: 2;
-  margin-top: 25px;
 }

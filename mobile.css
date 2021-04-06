@@ -49,7 +49,8 @@ body {
   
   .secondheader .icons {
     order: 2;
-    font-size: 20px;
+    right: 0;
+    font-size: 18px;
   }
   
   .thirdheader {
@@ -80,7 +81,77 @@ body {
     margin-right: 20px;
   }
   
+  .footer1 {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    background-color: #131313;
+    height: fit-content;
+  }
   
+  .footer {
+    background-color: #000;
+    height: 97px;
+    align-items: center;
+  }
+  
+  .footer-icons {
+    text-align: center;
+    grid-row-start: 1;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    vertical-align: middle;
+  }
+  
+  .footer-logo {
+    width: 40px;
+    height: 20px;
+    margin: auto 4px -5px auto;
+  }
+
+  .stackpath{
+      margin: 15px 10px -11px 2px;
+      width: 60px;
+      height: 30px;
+  }
+  
+  .footer-icons i {
+    font-size: 16px;
+    padding: 12px;
+    color: white;
+    margin-left: -2px;
+    margin-top: -3px;
+  }
+  
+  .icon {
+    border-radius: 50%;
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background-color: #333;
+    margin: auto 1px auto 1px;
+    border: 2px solid #333;
+    align-items: center;
+  }
+  
+  .icon:hover {
+    background-color: #000;
+  }
+  
+  .lasts-links {
+    text-align: center;
+    grid-row-start: 2;
+    margin-top: 30px;
+  }
+  
+  .lasts-links a {
+    font-family: "Shentox";
+    font-weight: 500;
+    color: #aaa;
+    text-decoration: none;
+    font-size: 13px;
+    margin: auto 4px auto auto;
+  }
   
   .title-1 a {
     margin-left: 100px;
@@ -90,7 +161,12 @@ body {
     text-decoration: none;
   }
   
+  .lasts-links a:hover {
+    color: white;
+  }
+  
   footer{
+<<<<<<< HEAD
   width:100%;
 }
 
@@ -188,14 +264,41 @@ footer{
 .footer-page img {
   order: 1;
 }
+=======
+    text-align: center;
+    width: 100%;
+  }
+>>>>>>> 3e9b65f1f30786d9da3c5a854c3f0e21ae024ad1
 
-.footer-page span {
-  order: 1;
-}
+  .footer span {
+    color: #aaaa;
+    font-size: 13px;
+  }
+  
+  .footer-page {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+  }
+  
+  .footer-page img {
+    order: 1;
+  }
+  
+  .footer-page span {
+    order: 2;
+    margin-top: 25px;
+  }
 
   .conateiner1 {
     width: 100%;
   max-width: 100%;
+  }
+  
+  .last-word {
+    color: #aaa;
+    text-decoration: none;
   }
   
   .container1 {
@@ -389,7 +492,7 @@ footer{
   .price {
     text-decoration: none;
     color: #000;
-    font-weight: 550;
+    font-weight: 600;
     font-size: 20px;
   }
   
