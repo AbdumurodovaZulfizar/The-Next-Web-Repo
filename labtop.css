@@ -4,6 +4,7 @@ header {
   position: fixed;
   top: 1px;
   width: 100%;
+
   /* height: max-content; */
 }
 
@@ -78,8 +79,8 @@ header {
   color: #fff;
 }
 
-.container-titles{
-  width:150%;
+.container-titles {
+  width: 150%;
 }
 
 .firstword {
@@ -98,10 +99,10 @@ header {
 }
 
 .secondheader a {
-  font-family: "Shentox";
+  font-family: "Shentox", sans-serif;
   text-decoration: none;
   color: #aaa;
-  letter-spacing: .04em;
+  letter-spacing: 0.04em;
   font-weight: 500;
   font-size: 13px;
 }
@@ -120,7 +121,6 @@ header {
 
 .thirdheader {
   text-align: left;
-  height: fit-content;
   margin-top: -1px;
 }
 
@@ -128,7 +128,7 @@ header {
   margin-left: 15px;
   color: black;
   font-size: 14px;
-  font-family: 'ARSMaquettePro-Regular';
+  font-family: 'ARSMaquettePro-Regular', sans-serif;
 }
 
 .date {
@@ -165,9 +165,10 @@ header {
 }
 
 .mini-container1 {
-  background-image:
+  background:
     linear-gradient(
       to right bottom,
+      rgba(255, 255, 255, 0.5)
       rgba(0, 0, 0, 1)
     ),
     url(./next-web-images/next-web1.jpg);
@@ -179,12 +180,12 @@ header {
   margin-top: 130px;
 }
 
-.mini-container1 .item1 {
-  grid-row-start: 3;
-}
-
 .item1 {
   margin-top: 30px;
+}
+
+.mini-container1 .item1 {
+  grid-row-start: 3;
 }
 
 .item2,
@@ -216,8 +217,6 @@ header {
   font-size: 20px;
 }
 
-
-
 .container3-items-row1 {
   display: flex;
   flex-direction: row;
@@ -239,7 +238,7 @@ header {
   margin-top: -105px;
 }
 
-footer{
+footer {
   text-align: center;
   width: 100%;
 }
