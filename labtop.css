@@ -78,6 +78,10 @@ header {
   color: #fff;
 }
 
+.container-titles{
+  width:150%;
+}
+
 .firstword {
   color: #fff;
   font-size: 13px;
@@ -232,7 +236,7 @@ header {
 .container-images-2,
 .container-images-3,
 .container-images-4 {
-  margin-top: -135px;
+  margin-top: -105px;
 }
 
 footer{
