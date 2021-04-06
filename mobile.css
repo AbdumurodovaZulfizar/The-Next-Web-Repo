@@ -183,6 +183,7 @@ body {
 
   .conateiner1 {
     width: 100%;
+  max-width: 100%;
   }
   
   .last-word {
@@ -262,14 +263,14 @@ body {
     text-decoration: none;
   }
   
-  .item1 {
+  .item1 .item2 .item3 {
     float: left;
     margin-left: 10px;
     grid-row-start: 2;
     vertical-align: text-bottom;
   }
   
-  .mini-container1 .item1 {
+  .mini-container1 .item1 .item2 .item3 {
     grid-row-start: 2;
   }
   

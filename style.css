@@ -47,6 +47,7 @@
 
 .conateiner1 {
   width: 100%;
+  max-width: 100%;
   margin: -13px auto auto auto;
 }
 
@@ -55,7 +56,7 @@
   display: inline;  
 }
 
-.mini-container1 .item1 {
+.mini-container1 .item1 .item2 .item3 {
   grid-row-start: 3;
 }
 

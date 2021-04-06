@@ -13,6 +13,8 @@ header {
 
 .conateiner1 {
   width: 100%;
+  max-width: 100%;
+  margin: auto;
 }
 
 .horizontal-line {
@@ -76,12 +78,15 @@ header {
 }
 
 .logo {
-  display: none;
   visibility: hidden;
 }
 
 .secondheader {
   position: relative;
+}
+
+.secondheader a {
+
 }
 
 .icons {
@@ -136,6 +141,12 @@ header {
 }
 
 .mini-container1 {
+  background-image:
+    linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 1)
+    ),
+    url(./next-web-images/next-web1.jpg);
   order: 1;
   width: 64%;
   height: 410px;
@@ -144,8 +155,12 @@ header {
   margin-top: 130px;
 }
 
-.mini-container1 .item1 {
+.mini-container1 .item1 .item2 .item3 {
   grid-row-start: 3;
+}
+
+.item1 .item2 .item3 {
+  margin-top: 30px;
 }
 
 .mini-container2,
@@ -157,6 +172,7 @@ header {
   font-size: 40px;
   line-height: 40px;
   grid-row-start: 3;
+  width: 20px;
 }
 
 .mini-container-1-2 {
@@ -186,5 +202,5 @@ header {
 }
 
 footer{
-  width:120px;
+  width: 100%;
 }
