@@ -265,14 +265,14 @@ body {
     text-decoration: none;
   }
   
-  .item1 .item2 .item3 {
+  .item1 {
     float: left;
     margin-left: 10px;
     grid-row-start: 2;
     vertical-align: text-bottom;
   }
   
-  .mini-container1 .item1 .item2 .item3 {
+  .mini-container1 .item1 {
     grid-row-start: 2;
   }
   
