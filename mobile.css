@@ -49,7 +49,7 @@ body {
   
   .secondheader .icons {
     order: 2;
-    font-size: 20px;
+    font-size: 30px;
   }
   
   .thirdheader {
@@ -117,13 +117,15 @@ body {
     font-size: 16px;
     padding: 12px;
     color: white;
+    margin-left: -2px;
+    margin-top: -3px;
   }
   
   .icon {
     border-radius: 50%;
     display: inline-block;
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     background-color: #333;
     margin: 7px;
     border: 2px solid #333;
@@ -225,7 +227,7 @@ body {
     background-image:
       linear-gradient(
         to bottom,
-        rgba(173, 103, 103, 0.5),
+        rgba(255, 255, 255, 0.5),
         rgba(0, 0, 0, 0.95)
       ),
       url(./next-web-images/next-web1.jpg);
