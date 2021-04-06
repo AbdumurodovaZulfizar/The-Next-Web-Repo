@@ -67,6 +67,11 @@ header {
   font-size: 13px;
 }
 
+.fa-search {
+  color: #ccc;
+  transform: scaleX(-1);
+}
+
 .nav-links:hover {
   color: #fff;
 }
@@ -94,6 +99,12 @@ header {
   margin-left: auto;
   float: right;
   margin-right: -20px;
+  width: 6.5%;
+}
+
+.icons a {
+  width: 1px;
+  height: 1px;
 }
 
 .thirdheader {
@@ -156,12 +167,17 @@ header {
   margin-top: 130px;
 }
 
-.mini-container1 .item1 .item2 .item3 {
+.mini-container1 .item1 {
   grid-row-start: 3;
 }
 
-.item1 .item2 .item3 {
+.item1 {
   margin-top: 30px;
+}
+
+.item2,
+.item3 {
+  margin: auto 10px auto 10px;
 }
 
 .mini-container2,
