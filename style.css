@@ -33,14 +33,13 @@
 }
 
 .mini-container1 {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       to right bottom,
       rgba(196, 13, 13, 0.5),
       rgba(0, 0, 0, 1)
     ),
     url(./next-web-images/next-web1.jpg);
-  grid-template-rows: 2%  53% 45%;
+  grid-template-rows: 2% 53% 45%;
 }
 
 .add {
