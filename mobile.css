@@ -28,7 +28,6 @@ body {
     width: 100%;
     height: 40px;
     display: flex;
-    position: fixed;
     flex-direction: row;
     justify-content: space-between;
     margin: auto;
@@ -41,11 +40,6 @@ body {
     height: 40px;
     width: 70px;
     background-color: black;
-  }
-
-  .logo:hover{
-    background: url(https://thumbs.gfycat.com/CarefreeNextAtlanticridleyturtle-mobile.mp4) no-repeat cover;
-
   }
   
   .logo img {
@@ -63,8 +57,6 @@ body {
     width: 100%;
     background-color: #FFDD33;
     order: 2;
-    display: fixed;
-    margin-top:30px;
   }
   
   .container-images3 a,
@@ -164,7 +156,7 @@ body {
   .title-1 a {
     font-family: ARSMaquettePro-Regular;
     margin-left: 100px;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 600;
     color: #fff;
     text-decoration: none;
@@ -217,10 +209,6 @@ body {
     margin: auto;
     margin-bottom: 250px;
 
-  }
-
-  .conateiner1 .article-author{
-    margin-top:-10px;
   }
   
   .mini-container2 {
@@ -306,7 +294,19 @@ body {
   .article-author {
     color: #fff9;
     font-size: 12px;
-    padding-top: 15px;
+    padding-top: 18px;
+  }
+
+  .article-author a {
+    font-family: ARSMaquettePro-Regular;
+    font-size: 13px;
+    color: #555;
+  }
+
+  .article-author2 a {
+    font-family: ARSMaquettePro-Regular;
+    font-size: 13px;
+    color: #555;
   }
   
   .author {
@@ -324,7 +324,6 @@ body {
     font-family: "Anton", sans-serif;
     text-decoration: none;
     font-weight: 800;
-    width:100%;
   }
   
   .container-titles:hover {
@@ -371,6 +370,16 @@ body {
   .container-images3 .page1 {
     margin-left: 15px;
   }
+
+  .page1 a {
+    font-family: ARSMaquettePro-Regular;
+    line-height: 18px;
+    font-size: 12px;
+  }
+
+  hr {
+    color: #ffccc3;
+  }
   
   .container-images {
     width: 100%;
@@ -396,15 +405,17 @@ body {
     height: 50px;
     width: 100%;
     background-color: #f7c5bb;
-    margin-top: -57px;
+    margin-top: -58px;
   }
   
   .title-1 {
-    margin-top: -50px;
+    margin-top: -35px;
     margin-left: 85px;
   }
   
   .price {
+    font-family: ARSMaquettePro-Regular;
+    margin-top: 5px;
     text-decoration: none;
     color: #000;
     font-weight: 600;
@@ -421,12 +432,12 @@ body {
     font-weight: 500;
     font-size: 13px;
     letter-spacing: .04em;
-    margin-top: -1px;
+    margin-top: 2px;
   }
   
   .title-2 {
     margin-left: 85px;
-    margin-top: -43px;
+    margin-top: -45px;
   }
   
   .container-images3 {
@@ -441,7 +452,6 @@ body {
     height: 60px;
     width: 60px;
     margin: 10px;
-    margin-top: -56px;
-    padding-top: 10px;
+    margin-top: -40px;
   }
 
