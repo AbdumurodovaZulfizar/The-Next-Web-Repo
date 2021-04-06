@@ -33,7 +33,7 @@ header {
 }
 
 .firstheader {
-  display: block;
+  display: flex;
   flex-direction: row;
   visibility: visible;
   background-color: black;
@@ -89,7 +89,6 @@ header {
 }
 
 .secondheader {
-  margin-top: 5px;
   position: relative;
 }
 
@@ -117,6 +116,7 @@ header {
 .thirdheader {
   text-align: left;
   height: fit-content;
+  margin-top: -1px;
 }
 
 .thirdheader p {
