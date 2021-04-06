@@ -1,5 +1,5 @@
 header {
-  display: inline-flex;
+  display: flex;
   position: fixed;
   top: 1px;
   width: 100%;
@@ -92,7 +92,8 @@ header {
 }
 
 .secondheader a {
-
+  font-size: 14px;
+ font-family: Shentox;
 }
 
 .icons {
@@ -203,6 +204,8 @@ header {
 .mini-container3 .highlight-title {
   font-size: 20px;
 }
+
+
 
 .container3-items-row1 {
   display: flex;
