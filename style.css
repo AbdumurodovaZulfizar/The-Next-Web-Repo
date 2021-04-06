@@ -33,8 +33,7 @@
 }
 
 .mini-container1 {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       to right bottom,
       rgba(196, 13, 13, 0.5),
       rgba(0, 0, 0, 1)
@@ -45,7 +44,7 @@
 
 .add {
   float: right;
-  margin-right: -30%;
+  /* margin-right: -30%; */
   align-content: flex-start;
   margin-top: -55px;
 }
@@ -100,4 +99,15 @@
 
 .mini-container1 .highlight-title {
   font-size: 40px;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-right: 100px;
+}
+
+.container4 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
 }
