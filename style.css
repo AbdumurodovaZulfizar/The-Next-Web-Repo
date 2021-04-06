@@ -73,9 +73,11 @@
 
 .secondheader a {
   text-decoration: none;
-  font-family: "Shentox";
   color: #aaa;
   letter-spacing: .04em;
   font-weight: 500;
   font-size: 14px;
 }
+
+.mini-container1 .highlight-title {
+  font-size: 40px;}

@@ -3,6 +3,7 @@ header {
   position: fixed;
   top: 1px;
   width: 100%;
+  /* height: max-content; */
 }
 
 .add {
@@ -31,7 +32,7 @@ header {
 }
 
 .firstheader {
-  display: flex;
+  display: block;
   flex-direction: row;
   visibility: visible;
   background-color: black;
@@ -169,7 +170,7 @@ header {
 }
 
 .mini-container1 .highlight-title {
-  font-size: 40px;
+  font-size: 35px;
   line-height: 40px;
   grid-row-start: 3;
   width: 20px;
