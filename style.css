@@ -64,7 +64,7 @@
 
 .unvisibles {
   visibility: visible;
-  display: inline;  
+  display: inline;
 }
 
 .mini-container1 .item1 {
@@ -90,13 +90,14 @@
 }
 
 .secondheader a {
-  font-family: "Shentox";
+  font-family: "Shentox", sans-serif;
   text-decoration: none;
   color: #aaa;
-  letter-spacing: .04em;
+  letter-spacing: 0.04em;
   font-weight: 500;
   font-size: 14px;
 }
 
 .mini-container1 .highlight-title {
-  font-size: 40px;}
+  font-size: 40px;
+}
