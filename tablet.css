@@ -120,7 +120,6 @@ header {
 
 .thirdheader {
   text-align: left;
-  margin-top: -1px;
 }
 
 .thirdheader p {
@@ -164,10 +163,9 @@ header {
 }
 
 .mini-container1 {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       to right bottom,
-      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.1),
       rgba(0, 0, 0, 1)
     ),
     url(./next-web-images/next-web1.jpg);
