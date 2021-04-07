@@ -163,11 +163,12 @@ header {
 }
 
 .mini-container1 {
-  background-image: linear-gradient(
-      to right bottom,
-      rgba(255, 255, 255, 0.1),
-      rgba(0, 0, 0, 1)
-    ),
+  background-image:
+    linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.1),
+    rgba(0, 0, 0, 1)
+  ),
     url(./next-web-images/next-web1.jpg);
   order: 1;
   width: 64%;
