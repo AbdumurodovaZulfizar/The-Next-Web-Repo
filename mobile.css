@@ -21,7 +21,9 @@ header {
 .story-title a {
   color: black;
   text-decoration: none;
-  font-weight: 550;
+  font-weight: 700;
+  font-family: ARSMaquettePro-Regular;
+  font-size: 14px;
 }
 
 .firstheader {
@@ -164,7 +166,7 @@ p {
 }
 
 .title-1 a {
-  font-family: "ARSMaquettePro-Regular", sans-serif;
+  font-family: ARSMaquettePro-Regular, sans-serif;
   margin-left: 100px;
   font-size: 18px;
   font-weight: 600;
@@ -173,21 +175,21 @@ p {
 }
 
 .article-author2 a {
-  font-family: "ARSMaquettePro-Regular", sans-serif;
+  font-family: ARSMaquettePro-Regular, sans-serif;
   font-size: 13px;
-  color: #555;
+  color: #aaa;
 }
 
 .page1 a {
-  font-family: "ARSMaquettePro-Regular", sans-serif;
+  font-family: ARSMaquettePro-Regular, sans-serif;
   line-height: 18px;
   font-size: 12px;
 }
 
 .article-author a {
-  font-family: "ARSMaquettePro-Regular", sans-serif;
+  font-family: ARSMaquettePro-Regular, sans-serif;
   font-size: 13px;
-  color: #555;
+  color: #aaa;
 }
 
 .lasts-links a:hover {
@@ -200,7 +202,7 @@ footer {
 }
 
 .footer span {
-  color: #aaaa;
+  color: #aaa;
   font-size: 13px;
 }
 
@@ -314,33 +316,6 @@ footer {
   margin-top: -35px;
 }
 
-.mini-container1 .author,
-.mini-container2 .author,
-.mini-container3 .author,
-.background .author,
-.background1 .author,
-.background2 .author,
-.background3 .author,
-.background4 .author,
-.background5 .author,
-.background6 .author,
-.background7 .author,
-.background8 .author,
-.mini-container1 .article-author,
-.mini-container2 .article-author,
-.mini-container3 .article-author,
-.background .article-author,
-.background1 .article-author,
-.background2 .article-author,
-.background3 .article-author,
-.background4 .article-author,
-.background5 .article-author,
-.background6 .article-author,
-.background7 .article-author,
-.background8 .article-author{
-  color: #ffffff99;
-}
-
 .TNW-logo,
 .date {
   display: none;
@@ -348,19 +323,20 @@ footer {
 }
 
 .article-author {
-  color: #666;
-  font-size: 12px;
+  color: #aaa;
+  font-family: ARSMaquettePro-Regular, sans-serif;
+  font-size: 13px;
   padding-top: 18px;
 }
 
 .author {
-  color: #666;
+  color: #aaa;
   text-decoration: none;
 }
 
 .container4-mini p,
 .author {
-  color: #666;
+  color: #aaa;
 }
 
 .author:hover {
@@ -370,7 +346,14 @@ footer {
 .container-titles {
   color: #f42;
   font-size: 28px;
-  font-family: "Anton", sans-serif;
+  font-family: avalon-bold, sans-serif;
+  text-decoration: none;
+  font-weight: 800;
+}
+.container-titles2 {
+  color: #f42;
+  font-size: 28px;
+  font-family: avalon-bold, sans-serif;
   text-decoration: none;
   font-weight: 800;
 }
@@ -543,79 +526,54 @@ hr {
   grid-template-rows: 55% 45%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .background {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(255,255,255,0.2),
-      rgba(0,0,0,0.9)),
-    url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-GameStop_Globen-e1611550531323-368x276.jpg");
+  background-image:
+  linear-gradient(to bottom , rgb(0,0,0,0), rgb(0,0,0,1)),
+   url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-GameStop_Globen-e1611550531323-368x276.jpg");
 }
 
 .background1 {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(255,255,255,0.2),
-      rgba(0,0,0,0.9)),
-    url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Snag_3c8ecdc-368x276.png");
+  background-image:
+  linear-gradient(to bottom , rgb(0,0,0,0), rgb(0,0,0,1)),
+  url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Snag_3c8ecdc-368x276.png");
 }
 
 .background2 {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(255,255,255,0.2),
-      rgba(0,0,0,0.9)),
-    url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/03/MacBook-USB-C-Feat-Img-730x365.jpg");
+  background-image:
+  linear-gradient(to bottom , rgb(0,0,0,0), rgb(0,0,0,1)),
+  url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/03/MacBook-USB-C-Feat-Img-730x365.jpg");
 }
 
 .background3 {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(255,255,255,0.2),
-      rgba(0,0,0,0.9)),
-    url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/06/vintage-robot-368x276.jpg");
+  background-image:
+  linear-gradient(to bottom , rgb(0,0,0,0), rgb(0,0,0,1)),
+  url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/06/vintage-robot-368x276.jpg");
 }
 
 .background4 {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(255,255,255,0.2),
-      rgba(0,0,0,0.9)),
-    url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Untitled-design-13-368x276.png");
+  background-image:
+  linear-gradient(to bottom , rgb(0,0,0,0), rgb(0,0,0,1)),
+  url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Untitled-design-13-368x276.png");
 }
 
 .background5 {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(255,255,255,0.2),
-      rgba(0,0,0,0.9)),
-    url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/open-source-code-gq-368x276.png");
+  background-image:
+  linear-gradient(to bottom , rgb(0,0,0,0), rgb(0,0,0,1)),
+  url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/open-source-code-gq-368x276.png");
 }
 
 .background6 {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(255,255,255,0.2),
-      rgba(0,0,0,0.9)),
-    url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/zoom-fundraising-gq-368x276.png");
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/zoom-fundraising-gq-368x276.png");
 }
 
 .background7 {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(255,255,255,0.2),
-      rgba(0,0,0,0.9)),
-    url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/toyota-suv-new-ev-car-future-electric-japan-368x276.jpg");
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/toyota-suv-new-ev-car-future-electric-japan-368x276.jpg");
 }
 
 .background8 {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(255,255,255,0.2),
-      rgba(0,0,0,0.9)),
-    url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/amplified-368x276.jpg");
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/amplified-368x276.jpg");
 }
 
 
@@ -627,12 +585,20 @@ hr {
 .popular {
   color: #fff;
   margin-bottom: -20px;
+  font-family: "Shentox";
+  font-size: 13px;
+  font-weight: 500;
 }
 
 .popular-title {
   color: #fff;
   text-decoration: none;
   font-weight: 600;
+}
+
+.popular-title h2 {
+  font-family: ARSMaquettePro-Regular;
+  font-size: 20px;
 }
 
 .popular-title:hover {
@@ -651,6 +617,11 @@ hr {
   grid-template-columns: 80% 20%;
 }
 
+.latest-title p {
+  font-family: "Shentox";
+  font-size: 13px;
+}
+
 .latest-title-1,
 .latest-title-2 {
   color: #f42;
@@ -661,11 +632,8 @@ hr {
 .latest-title-2 {
   text-decoration: none;
   font-size: 18px;
-  font-weight: 600;
-}
-
-.latest-title-2:hover{
-  text-decoration: underline;
+  font-weight: 700;
+  font-family: ARSMaquettePro-Regular;
 }
 
 .ul-li-items {
@@ -673,6 +641,12 @@ hr {
   float: left;
   margin-left: -20px;
   color: #f42;
+}
+
+.ul-li-items ul li {
+  font-size: 13px;
+  font-family: ARSMaquettePro-Regular;
+  line-height: 25px;
 }
 
 .ul-li {

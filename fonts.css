@@ -15,11 +15,16 @@
 }
 
 @font-face {
+  font-family: avalon-bold;
+  src: url(fonts/avalon-bold.woff);
+}
+
+@font-face {
   font-family: ARSMaquettePro-Light;
   src: url(fonts/ARSMaquettePro-Light.ttf);
 }
 
 @font-face {
   font-family: ARSMaquettePro-Regular;
-  src: url(fonts/ARSMaquettePro-Regular.ttf);
+  src: url(fonts/ars-maquette-regular.woff);
 }

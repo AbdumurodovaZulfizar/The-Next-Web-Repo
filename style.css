@@ -71,8 +71,8 @@
 
 .container3 {
   margin: auto;
-  width: 100%;
-  max-width: 1150px;
+  width: 1200px;
+  max-width: 88%;
 }
 
 .container3-items-row1 {
@@ -85,6 +85,15 @@
 .container-images-3,
 .container-images-4 {
   margin-top: -150px;
+}
+
+.container-titles2 {
+  color: #f42;
+  font-size: 28px;
+  font-family: avalon-bold, sans-serif;
+  text-decoration: none;
+  font-weight: 800;
+  margin-left: 90px;
 }
 
 .secondheader a {
@@ -103,11 +112,17 @@
 .container2 {
   display: grid;
   grid-template-columns: auto auto auto;
+  margin: auto;
+  width: 1200px;
+  max-width: 88%;
 }
 
 .container4 {
   display: grid;
   grid-template-columns: auto auto auto auto;
+  width: 1200px;
+  max-width: 88%;
+  margin: auto;
 }
 
 .SeeAll{
@@ -116,3 +131,5 @@
   margin-bottom: 30px;
   margin-right: 20px;
 }
+  
+
