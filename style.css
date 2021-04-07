@@ -44,7 +44,6 @@
 
 .add {
   float: right;
-  /* margin-right: -30%; */
   align-content: flex-start;
   margin-top: -55px;
 }
@@ -104,7 +103,6 @@
 .container2 {
   display: grid;
   grid-template-columns: auto auto auto;
-  margin-right: 100px;
 }
 
 .container4 {

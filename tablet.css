@@ -259,6 +259,8 @@ footer {
 .container2 {
   display: grid;
   grid-template-columns: auto auto;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .container4 {
@@ -300,4 +302,13 @@ footer {
 .News{
   margin-top: 160px;
   margin-left: 40px;
+}
+
+.Deals{
+  padding-left: 40px;
+  margin-bottom: 30px;
+}
+
+.container4-mini img{
+  width:90%
 }
