@@ -125,11 +125,15 @@
   margin: auto;
 }
 
+.Deals{
+  margin-left: 70px;
+}
+
 .SeeAll{
   float: right;
   margin-top: -70px;
   margin-bottom: 30px;
-  margin-right: 20px;
+  margin-right: 90px;
 }
   
 
