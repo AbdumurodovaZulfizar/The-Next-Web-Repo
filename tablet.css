@@ -14,11 +14,6 @@ header {
   font-size: 15px;
 }
 
-.story-dealDiscount {
-  display: inline-block;
-  visibility: visible;
-}
-
 .add {
   margin-top: -20px;
   display: flex;
@@ -282,16 +277,17 @@ footer {
 }
 
 .container4-mini img {
-  width: 100%;
+  width: 90%;
   grid-row-start: 1;
   margin-bottom: 10px;
   height: 150px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .story-title {
   margin-top: -15px;
   margin-left: 1px;
+  width: 90%;
 }
 
 .story .article-author {
@@ -305,10 +301,12 @@ footer {
 }
 
 .Deals{
-  padding-left: 40px;
+  padding-left: 20px;
   margin-bottom: 30px;
 }
 
-.container4-mini img{
-  width:90%
+.SeeAll{
+  margin-left: 20px;
+  margin-top: -10px;
 }
+

@@ -109,3 +109,10 @@
   display: grid;
   grid-template-columns: auto auto auto auto;
 }
+
+.SeeAll{
+  float: right;
+  margin-top: -70px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
