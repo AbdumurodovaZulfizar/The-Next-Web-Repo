@@ -377,7 +377,7 @@ footer {
 }
 
 .latest-title img {
-  height: 100px;
+  height: 109px;
   width: 100%;
   margin-right:5px;
   grid-column-start: 2;
@@ -526,54 +526,61 @@ hr {
   grid-template-rows: 55% 45%;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .background {
   background-image:
-  linear-gradient(to bottom , rgb(0,0,0,0), rgb(0,0,0,1)),
+  linear-gradient(to bottom , rgb(255,255,255,0.1), rgb(0,0,0,1)),
    url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-GameStop_Globen-e1611550531323-368x276.jpg");
 }
 
 .background1 {
   background-image:
-  linear-gradient(to bottom , rgb(0,0,0,0), rgb(0,0,0,1)),
+  linear-gradient(to bottom , rgb(255, 255, 255, 0.1), rgb(0,0,0,1)),
   url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Snag_3c8ecdc-368x276.png");
 }
 
 .background2 {
   background-image:
-  linear-gradient(to bottom , rgb(0,0,0,0), rgb(0,0,0,1)),
+  linear-gradient(to bottom , rgb(255, 255, 255, 0.1), rgb(0,0,0,1)),
   url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/03/MacBook-USB-C-Feat-Img-730x365.jpg");
 }
 
 .background3 {
   background-image:
-  linear-gradient(to bottom , rgb(0,0,0,0), rgb(0,0,0,1)),
+  linear-gradient(to bottom , rgb(255, 255, 255, 0.1), rgb(0,0,0,1)),
   url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/06/vintage-robot-368x276.jpg");
 }
 
 .background4 {
   background-image:
-  linear-gradient(to bottom , rgb(0,0,0,0), rgb(0,0,0,1)),
+  linear-gradient(to bottom , rgb(255, 255, 255, 0.1), rgb(0,0,0,1)),
   url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Untitled-design-13-368x276.png");
 }
 
 .background5 {
   background-image:
-  linear-gradient(to bottom , rgb(0,0,0,0), rgb(0,0,0,1)),
+  linear-gradient(to bottom , rgb(255, 255, 255, 0.1), rgb(0,0,0,1)),
   url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/open-source-code-gq-368x276.png");
 }
 
 .background6 {
-  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/zoom-fundraising-gq-368x276.png");
+  background-image:
+  linear-gradient(to bottom, rgb(255, 155, 255, 0.1), rgb(0,0,0,1)),
+  url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/zoom-fundraising-gq-368x276.png");
 }
 
 .background7 {
-  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/toyota-suv-new-ev-car-future-electric-japan-368x276.jpg");
+  background-image:
+  linear-gradient(to bottom, rgb(255, 155, 255, 0.1), rgb(0,0,0,1)),
+  url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/toyota-suv-new-ev-car-future-electric-japan-368x276.jpg");
 }
 
 .background8 {
-  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/amplified-368x276.jpg");
+  background-image:
+  linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(0,0,0,1)),
+  url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/amplified-368x276.jpg");
 }
 
 
@@ -614,7 +621,7 @@ hr {
   height: 110px;
   background-color: #f3d5cf;
   display: grid;
-  grid-template-columns: 80% 20%;
+  grid-template-columns: 75% 25%;
 }
 
 .latest-title p {
@@ -634,6 +641,10 @@ hr {
   font-size: 18px;
   font-weight: 700;
   font-family: ARSMaquettePro-Regular;
+}
+
+.latest-title-2:hover{
+  text-decoration: underline;
 }
 
 .ul-li-items {
