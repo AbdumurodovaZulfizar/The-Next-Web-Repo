@@ -1,0 +1,103 @@
+@import url(//db.onlinewebfonts.com/c/5c773d1586db24bd45dfd4af3a4542e7?family=Shentox);
+
+.TNW-logo,
+.date {
+  visibility: visible;
+  display: inline;
+}
+
+.date {
+  font-family: ARSMaquettePro-Light, Times, serif;
+  grid-row-start: 1;
+  margin-left: 80%;
+  color: #fff;
+  font-size: 13px;
+}
+
+.TNW-logo {
+  height: 100px;
+  width: 40%;
+  grid-row-start: 2;
+  margin-left: 10px;
+}
+
+.icon {
+  border-radius: 50%;
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  background-color: #333;
+  margin: auto 5px auto 5px;
+  border: 2px solid #333;
+  align-items: center;
+}
+
+.mini-container1 {
+  background-image:
+    linear-gradient(
+      to right bottom,
+      rgba(196, 13, 13, 0.5),
+      rgba(0, 0, 0, 1)
+    ),
+    url(./next-web-images/next-web1.jpg);
+  grid-template-rows: 2% 53% 45%;
+}
+
+.add {
+  float: right;
+  margin-right: -30%;
+  align-content: flex-start;
+  margin-top: -55px;
+}
+
+.firstheader a {
+  font-family: ARSMaquettePro-Light, Times, serif;
+  color: #fff9;
+  font-size: 13px;
+}
+
+.conateiner1 {
+  width: 100%;
+  max-width: 100%;
+  margin: -13px auto auto auto;
+}
+
+.unvisibles {
+  visibility: visible;
+  display: inline;
+}
+
+.mini-container1 .item1 {
+  grid-row-start: 3;
+}
+
+.container3 {
+  margin: auto;
+  width: 100%;
+  max-width: 1150px;
+}
+
+.container3-items-row1 {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.container-images-1,
+.container-images-2,
+.container-images-3,
+.container-images-4 {
+  margin-top: -150px;
+}
+
+.secondheader a {
+  font-family: "Shentox", sans-serif;
+  text-decoration: none;
+  color: #aaa;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.mini-container1 .highlight-title {
+  font-size: 40px;
+}
