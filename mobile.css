@@ -511,6 +511,10 @@ hr {
   margin: 10px;
 }
 
+.container2-1 h2 {
+  margin-bottom: -5px;
+}
+
 .background,
 .background1,
 .background2,
@@ -566,15 +570,21 @@ hr {
 }
 
 .background6 {
-  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/zoom-fundraising-gq-368x276.png");
+  background-image:
+  linear-gradient(to bottom , rgb(0,0,0,0), rgb(0,0,0,1)),
+  url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/zoom-fundraising-gq-368x276.png");
 }
 
 .background7 {
-  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/toyota-suv-new-ev-car-future-electric-japan-368x276.jpg");
+  background-image:
+  linear-gradient(to bottom , rgb(0,0,0,0), rgb(0,0,0,1)),
+  url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/toyota-suv-new-ev-car-future-electric-japan-368x276.jpg");
 }
 
 .background8 {
-  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/amplified-368x276.jpg");
+  background-image:
+  linear-gradient(to bottom , rgb(0,0,0,0), rgb(0,0,0,1)),
+  url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/amplified-368x276.jpg");
 }
 
 
@@ -647,12 +657,13 @@ hr {
 .ul-li-items ul li {
   font-size: 13px;
   font-family: ARSMaquettePro-Regular;
-  line-height: 25px;
+  line-height: 15px;
+  margin-bottom: 5px;
 }
 
 .ul-li {
   text-decoration: none;
-  color: #666;
+  color: #555;
 }
 
 .ul-li:hover {
@@ -715,8 +726,10 @@ hr {
 .SeeAllDeals{
   color: #f42;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 400;
   margin-left: 20px;
+  font-family: ARSMaquettePro-Regular;
+  font-size: 16px;
 }
 
 .SeeAllDeals:hover{
