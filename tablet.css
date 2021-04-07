@@ -163,7 +163,8 @@ header {
 }
 
 .mini-container1 {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to right bottom,
       rgba(255, 255, 255, 0.1),
       rgba(0, 0, 0, 1)
