@@ -268,7 +268,7 @@ footer {
 .container4-mini {
   display: grid;
   grid-template-rows: 80% 20%;
-  margin-top:-40px;
+  margin-top: -40px;
   margin-bottom: 30px;
 }
 
@@ -295,18 +295,17 @@ footer {
   margin-top: -35px;
 }
 
-.News{
+.News {
   margin-top: 160px;
   margin-left: 40px;
 }
 
-.Deals{
+.Deals {
   padding-left: 20px;
   margin-bottom: 30px;
 }
 
-.SeeAll{
+.SeeAll {
   margin-left: 20px;
   margin-top: -10px;
 }
-

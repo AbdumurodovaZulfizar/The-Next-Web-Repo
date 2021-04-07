@@ -22,7 +22,7 @@ header {
   color: black;
   text-decoration: none;
   font-weight: 700;
-  font-family: ARSMaquettePro-Regular;
+  font-family: ARSMaquettePro-Regular, sans-serif;
   font-size: 14px;
   line-height: 1.25;
 }
@@ -242,7 +242,8 @@ footer {
 }
 
 .mini-container2 {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(255, 255, 255, 0.5),
       rgba(0, 0, 0, 0.95)
@@ -263,7 +264,8 @@ footer {
 }
 
 .mini-container1 {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(255, 255, 255, 0.5),
       rgba(0, 0, 0, 0.95)
@@ -271,13 +273,14 @@ footer {
     url(./next-web-images/next-web1.jpg);
   height: 180px;
   width: 100%;
-  margin-top:-1px;
+  margin-top: -1px;
   background-position: center;
   align-content: center;
 }
 
 .mini-container3 {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(255, 255, 255, 0.5),
       rgba(0, 0, 0, 0.95)
@@ -312,8 +315,15 @@ footer {
   grid-row-start: 2;
 }
 
+.article-author {
+  color: #aaa;
+  font-family: ARSMaquettePro-Regular, sans-serif;
+  font-size: 13px;
+  padding-top: 18px;
+}
+
 .mini-container1 .article-author,
-.mini-container3 .article-author{
+.mini-container3 .article-author {
   margin-top: -35px;
 }
 
@@ -321,13 +331,6 @@ footer {
 .date {
   display: none;
   visibility: hidden;
-}
-
-.article-author {
-  color: #aaa;
-  font-family: ARSMaquettePro-Regular, sans-serif;
-  font-size: 13px;
-  padding-top: 18px;
 }
 
 .author {
@@ -351,6 +354,7 @@ footer {
   text-decoration: none;
   font-weight: 800;
 }
+
 .container-titles2 {
   color: #f42;
   font-size: 28px;
@@ -380,7 +384,7 @@ footer {
 .latest-title img {
   height: 109px;
   width: 100%;
-  margin-right:5px;
+  margin-right: 5px;
   grid-column-start: 2;
   margin-top: -40px;
 }
@@ -537,58 +541,57 @@ hr {
 
 .background {
   background-image:
-  linear-gradient(to bottom , rgb(255,255,255,0.1), rgb(0,0,0,1)),
-   url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-GameStop_Globen-e1611550531323-368x276.jpg");
+    linear-gradient(to bottom, rgb(255, 255, 255, 0.1), rgb(0, 0, 0, 1)),
+    url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-GameStop_Globen-e1611550531323-368x276.jpg");
 }
 
 .background1 {
   background-image:
-  linear-gradient(to bottom , rgb(255, 255, 255, 0.1), rgb(0,0,0,1)),
-  url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Snag_3c8ecdc-368x276.png");
+    linear-gradient(to bottom, rgb(255, 255, 255, 0.1), rgb(0, 0, 0, 1)),
+    url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Snag_3c8ecdc-368x276.png");
 }
 
 .background2 {
   background-image:
-  linear-gradient(to bottom , rgb(255, 255, 255, 0.1), rgb(0,0,0,1)),
-  url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/03/MacBook-USB-C-Feat-Img-730x365.jpg");
+    linear-gradient(to bottom, rgb(255, 255, 255, 0.1), rgb(0, 0, 0, 1)),
+    url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/03/MacBook-USB-C-Feat-Img-730x365.jpg");
 }
 
 .background3 {
   background-image:
-  linear-gradient(to bottom , rgb(255, 255, 255, 0.1), rgb(0,0,0,1)),
-  url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/06/vintage-robot-368x276.jpg");
+    linear-gradient(to bottom, rgb(255, 255, 255, 0.1), rgb(0, 0, 0, 1)),
+    url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/06/vintage-robot-368x276.jpg");
 }
 
 .background4 {
   background-image:
-  linear-gradient(to bottom , rgb(255, 255, 255, 0.1), rgb(0,0,0,1)),
-  url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Untitled-design-13-368x276.png");
+    linear-gradient(to bottom, rgb(255, 255, 255, 0.1), rgb(0, 0, 0, 1)),
+    url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Untitled-design-13-368x276.png");
 }
 
 .background5 {
   background-image:
-  linear-gradient(to bottom , rgb(255, 255, 255, 0.1), rgb(0,0,0,1)),
-  url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/open-source-code-gq-368x276.png");
+    linear-gradient(to bottom, rgb(255, 255, 255, 0.1), rgb(0, 0, 0, 1)),
+    url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/open-source-code-gq-368x276.png");
 }
 
 .background6 {
   background-image:
-  linear-gradient(to bottom, rgb(255, 155, 255, 0.1), rgb(0,0,0,1)),
-  url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/zoom-fundraising-gq-368x276.png");
+    linear-gradient(to bottom, rgb(255, 155, 255, 0.1), rgb(0, 0, 0, 1)),
+    url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/zoom-fundraising-gq-368x276.png");
 }
 
 .background7 {
   background-image:
-  linear-gradient(to bottom, rgb(255, 155, 255, 0.1), rgb(0,0,0,1)),
-  url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/toyota-suv-new-ev-car-future-electric-japan-368x276.jpg");
+    linear-gradient(to bottom, rgb(255, 155, 255, 0.1), rgb(0, 0, 0, 1)),
+    url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/toyota-suv-new-ev-car-future-electric-japan-368x276.jpg");
 }
 
 .background8 {
   background-image:
-  linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(0,0,0,1)),
-  url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/amplified-368x276.jpg");
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 1)),
+    url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/amplified-368x276.jpg");
 }
-
 
 .item2 {
   grid-row-start: 2;
@@ -598,7 +601,7 @@ hr {
 .popular {
   color: #fff;
   margin-bottom: -20px;
-  font-family: "Shentox";
+  font-family: "Shentox", sans-serif;
   font-size: 13px;
   font-weight: 500;
 }
@@ -610,7 +613,7 @@ hr {
 }
 
 .popular-title h2 {
-  font-family: ARSMaquettePro-Regular;
+  font-family: ARSMaquettePro-Regular, sans-serif;
   font-size: 20px;
 }
 
@@ -631,7 +634,7 @@ hr {
 }
 
 .latest-title p {
-  font-family: "Shentox";
+  font-family: "Shentox", sans-serif;
   font-size: 13px;
 }
 
@@ -646,10 +649,10 @@ hr {
   text-decoration: none;
   font-size: 18px;
   font-weight: 700;
-  font-family: ARSMaquettePro-Regular;
+  font-family: ARSMaquettePro-Regular, sans-serif;
 }
 
-.latest-title-2:hover{
+.latest-title-2:hover {
   text-decoration: underline;
 }
 
@@ -662,7 +665,7 @@ hr {
 
 .ul-li-items ul li {
   font-size: 13px;
-  font-family: ARSMaquettePro-Regular;
+  font-family: ARSMaquettePro-Regular, sans-serif;
   line-height: 15px;
   margin-bottom: 5px;
 }
@@ -679,17 +682,17 @@ hr {
 .container4 {
   width: 100%;
   margin: 10px;
-  margin-bottom:200px;
+  margin-bottom: 200px;
 }
 
 .container4-mini {
   display: flex;
   flex-direction: column;
-  margin: 0px;
+  margin: 0;
 }
 
 .story {
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .story-title {
@@ -712,32 +715,32 @@ hr {
 }
 
 .add p {
-  font-family: ARSMaquettePro-Light;
+  font-family: ARSMaquettePro-Light, sans-serif;
   font-size: 16px;
   font-weight: 700;
 }
 
-.News{
+.News {
   margin-left: 20px;
 }
 
-.container4 .article-author{
+.container4 .article-author {
   margin-top: -15px;
 }
 
-.Deals{
+.Deals {
   margin-left: 20px;
 }
 
-.SeeAllDeals{
+.SeeAllDeals {
   color: #f42;
   text-decoration: none;
   font-weight: 400;
   margin-left: 20px;
-  font-family: ARSMaquettePro-Regular;
+  font-family: ARSMaquettePro-Regular, sans-serif;
   font-size: 16px;
 }
 
-.SeeAllDeals:hover{
+.SeeAllDeals:hover {
   color: #000;
 }
