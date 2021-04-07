@@ -120,9 +120,9 @@
 .container4 {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  width: 1200px;
-  max-width: 88%;
-  margin: auto;
+  width: 100%;
+  max-width: 89%;
+  margin: auto 46px auto auto;
 }
 
 .Deals{
