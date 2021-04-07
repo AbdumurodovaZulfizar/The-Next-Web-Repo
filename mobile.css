@@ -689,6 +689,12 @@ hr {
   color: #000;
 }
 
+.add p {
+  font-family: ARSMaquettePro-Light;
+  font-size: 16px;
+  font-weight: 700;
+}
+
 .News{
   margin-left: 20px;
 }
