@@ -1,4 +1,4 @@
-# The Next Web Clone
+
 
 > In this Project you can see number of Responsive Web Design examples.
 > In addition to this I have used grid and flex priperties in order to make it looks better.
@@ -67,3 +67,4 @@ Give a ⭐️ if you like this project!
 
 - For information: Microverse!
 - You can be software developer only if you want 😊
+
