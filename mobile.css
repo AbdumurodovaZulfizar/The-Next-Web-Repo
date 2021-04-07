@@ -268,7 +268,7 @@ footer {
     url(./next-web-images/next-web1.jpg);
   height: 180px;
   width: 100%;
-  margin-top: 87px;
+  margin-top:-1px;
   background-position: center;
   align-content: center;
 }
@@ -307,6 +307,11 @@ footer {
 
 .mini-container1 .item1 {
   grid-row-start: 2;
+}
+
+.mini-container1 .article-author,
+.mini-container3 .article-author{
+  margin-top: -35px;
 }
 
 .TNW-logo,
@@ -362,11 +367,11 @@ footer {
 }
 
 .latest-title img {
-  height: 95px;
-  width: 95%;
-  margin: 3px;
+  height: 100px;
+  width: 100%;
+  margin-right:5px;
   grid-column-start: 2;
-  margin-top: -35px;
+  margin-top: -40px;
 }
 
 .container4-mini img {
@@ -575,6 +580,7 @@ hr {
 .container4 {
   width: 100%;
   margin: 10px;
+  margin-bottom:200px;
 }
 
 .container4-mini {
@@ -600,4 +606,12 @@ hr {
 
 .container4-mini .author:hover {
   color: #000;
+}
+
+.News{
+  margin-left: 20px;
+}
+
+.container4 .article-author{
+  margin-top: -15px;
 }
