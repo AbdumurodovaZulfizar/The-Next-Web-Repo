@@ -24,6 +24,7 @@ header {
   font-weight: 700;
   font-family: ARSMaquettePro-Regular;
   font-size: 14px;
+  line-height: 1.25;
 }
 
 .firstheader {
@@ -678,7 +679,11 @@ hr {
 .container4-mini {
   display: flex;
   flex-direction: column;
-  margin: 10px;
+  margin: 0px;
+}
+
+.story {
+  margin-top: 0px;
 }
 
 .story-title {
