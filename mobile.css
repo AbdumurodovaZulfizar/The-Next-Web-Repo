@@ -511,6 +511,10 @@ hr {
   margin: 10px;
 }
 
+.container2-1 h2 {
+  margin-bottom: -5px;
+}
+
 .background,
 .background1,
 .background2,
@@ -658,12 +662,13 @@ hr {
 .ul-li-items ul li {
   font-size: 13px;
   font-family: ARSMaquettePro-Regular;
-  line-height: 25px;
+  line-height: 15px;
+  margin-bottom: 5px;
 }
 
 .ul-li {
   text-decoration: none;
-  color: #666;
+  color: #555;
 }
 
 .ul-li:hover {
@@ -726,8 +731,10 @@ hr {
 .SeeAllDeals{
   color: #f42;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 400;
   margin-left: 20px;
+  font-family: ARSMaquettePro-Regular;
+  font-size: 16px;
 }
 
 .SeeAllDeals:hover{
