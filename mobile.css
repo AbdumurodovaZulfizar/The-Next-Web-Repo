@@ -3,14 +3,25 @@
 body {
   margin: 1px;
   overflow-x: hidden;
+  position: relative;
 }
 
 header {
   display: flex;
-  position: fixed;
+  position: sticky;
   top: 1px;
   width: 100%;
   flex-direction: column;
+}
+
+.latest-title a {
+  margin-top: -20px;
+}
+
+.story-title a {
+  color: black;
+  text-decoration: none;
+  font-weight: 550;
 }
 
 .firstheader {
@@ -228,8 +239,7 @@ footer {
 }
 
 .mini-container2 {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       to bottom,
       rgba(255, 255, 255, 0.5),
       rgba(0, 0, 0, 0.95)
@@ -250,8 +260,7 @@ footer {
 }
 
 .mini-container1 {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       to bottom,
       rgba(255, 255, 255, 0.5),
       rgba(0, 0, 0, 0.95)
@@ -265,8 +274,7 @@ footer {
 }
 
 .mini-container3 {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       to bottom,
       rgba(255, 255, 255, 0.5),
       rgba(0, 0, 0, 0.95)
@@ -308,14 +316,19 @@ footer {
 }
 
 .article-author {
-  color: #fff9;
+  color: #666;
   font-size: 12px;
   padding-top: 18px;
 }
 
 .author {
-  color: #fff9;
+  color: #666;
   text-decoration: none;
+}
+
+.container4-mini p,
+.author {
+  color: #666;
 }
 
 .author:hover {
@@ -346,6 +359,20 @@ footer {
 
 .about:hover {
   color: black;
+}
+
+.latest-title img {
+  height: 95px;
+  width: 95%;
+  margin: 3px;
+  grid-column-start: 2;
+  margin-top: -35px;
+}
+
+.container4-mini img {
+  width: 80px;
+  height: 80px;
+  order: 1;
 }
 
 .container3-items-row1 .container-images3 img {
@@ -452,4 +479,125 @@ hr {
   margin: 10px;
   margin-top: -56px;
   padding-top: 10px;
+}
+
+.container2 {
+  margin: 60px 10px 60px 10px;
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  margin-right: 30px;
+}
+
+.container2-1 {
+  width: 100%;
+  height: 20%;
+  margin: 10px;
+}
+
+.background {
+  width: 94%;
+  height: 300px;
+  margin-right: 30px;
+  display: grid;
+  grid-template-rows: 55% 45%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.5),
+      rgba(0, 0, 0, 0.95)
+    ),
+    url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-GameStop_Globen-e1611550531323-368x276.jpg);
+}
+
+.item2 {
+  grid-row-start: 2;
+  margin-left: 10px;
+}
+
+.popular {
+  color: #fff;
+  margin-bottom: -20px;
+}
+
+.popular-title {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.popular-title:hover {
+  text-decoration: underline;
+}
+
+.item2 .article-author {
+  margin-top: -20px;
+}
+
+.latest-title {
+  width: 94%;
+  height: 110px;
+  background-color: #f3d5cf;
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+
+.latest-title-1,
+.latest-title-2 {
+  color: #f42;
+  margin-left: 10px;
+  grid-column-start: 1;
+}
+
+.latest-title-2 {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.ul-li-items {
+  width: 100%;
+  float: left;
+  margin-left: -20px;
+  color: #f42;
+}
+
+.ul-li {
+  text-decoration: none;
+  color: #666;
+}
+
+.ul-li:hover {
+  color: #000;
+}
+
+.container4 {
+  width: 100%;
+  margin: 10px;
+}
+
+.container4-mini {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.story-title {
+  order: 2;
+  margin-left: 100px;
+  margin-top: -80px;
+}
+
+.story-title a:hover {
+  color: #f42;
+  text-decoration: underline;
+}
+
+.container4-mini .article-author {
+  margin-left: 100px;
+}
+
+.container4-mini .author:hover {
+  color: #000;
 }

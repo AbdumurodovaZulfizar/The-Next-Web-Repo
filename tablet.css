@@ -3,8 +3,20 @@ header {
   position: fixed;
   top: 1px;
   width: 100%;
+}
 
-  /* height: max-content; */
+.overline {
+  text-decoration: line-through;
+  font-size: 13px;
+}
+
+.real {
+  font-size: 15px;
+}
+
+.story-dealDiscount {
+  display: inline-block;
+  visibility: visible;
 }
 
 .add {
@@ -165,10 +177,10 @@ header {
 .mini-container1 {
   background-image:
     linear-gradient(
-    to right bottom,
-    rgba(255, 255, 255, 0.1),
-    rgba(0, 0, 0, 1)
-  ),
+      to right bottom,
+      rgba(255, 255, 255, 0.1),
+      rgba(0, 0, 0, 1)
+    ),
     url(./next-web-images/next-web1.jpg);
   order: 1;
   width: 64%;
@@ -219,6 +231,8 @@ header {
   display: flex;
   flex-direction: row;
   width: 100%;
+  margin-top: 200px;
+  margin-left: 20px;
 }
 
 .container-images-1,
@@ -233,10 +247,50 @@ header {
 .container-images-2,
 .container-images-3,
 .container-images-4 {
-  margin-top: -105px;
+  margin-top: 60px;
 }
 
 footer {
   text-align: center;
   width: 100%;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.container4 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.container4-mini {
+  display: grid;
+  grid-template-rows: 80% 20%;
+}
+
+.container3 .container-titles {
+  margin-left: 20px;
+}
+
+.container4-mini img {
+  width: 100%;
+  grid-row-start: 1;
+  margin-bottom: 20px;
+  height: 200px;
+}
+
+.story-title {
+  margin-top: -10px;
+  margin-left: 1px;
+}
+
+.story .article-author {
+  margin-left: 1px;
+  margin-top: -15px;
+}
+
+.News {
+  padding-left: 20px;
 }
