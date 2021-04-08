@@ -45,7 +45,6 @@
 
 .add {
   float: right;
-  margin-right: -30%;
   align-content: flex-start;
   margin-top: -55px;
 }
@@ -72,9 +71,8 @@
 }
 
 .container3 {
-  margin: auto;
-  width: 100%;
-  max-width: 1150px;
+  max-width: 88%;
+  margin-left: 55px;
 }
 
 .container3-items-row1 {
@@ -89,6 +87,15 @@
   margin-top: -150px;
 }
 
+.container-titles2 {
+  color: #f42;
+  font-size: 28px;
+  font-family: "avalon-bold", sans-serif;
+  text-decoration: none;
+  font-weight: 800;
+  margin-left: 33px;
+}
+
 .secondheader a {
   font-family: "Shentox", sans-serif;
   text-decoration: none;
@@ -100,4 +107,30 @@
 
 .mini-container1 .highlight-title {
   font-size: 40px;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: auto;
+  width: 1200px;
+  max-width: 88%;
+}
+
+.container4 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  max-width: 90%;
+  margin-left: 60px;
+}
+
+.Deals {
+  margin-left: 60px;
+}
+
+.SeeAll {
+  float: right;
+  margin-top: -70px;
+  margin-bottom: 30px;
+  margin-right: 110px;
 }
