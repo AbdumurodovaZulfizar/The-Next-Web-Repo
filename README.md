@@ -49,7 +49,7 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@Zulfiza70357085](https://twitter.com/Zulfiza70357085)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/zulfizar-abdumurodova-a61527206/)
 
-🧑‍🦱💼 **Author2**
+🧑‍💼 **Author2**
 
 - GitHub: [@marcosmerida](https://github.com/marcosmerida)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/marcos-merida-219437206/)
@@ -65,6 +65,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- For information: Microverse!
+- [Microverse](https://www.microverse.org/) for international opportunities and their `README` [template](https://github.com/microverseinc/readme-template).
 - You can be software developer only if you want 😊
 
+## 📝 License
+
+Copyright 2021 Zulfizar Abdumurodova & Marcos Merida
+- [MIT](https://github.com/AbdumurodovaZulfizar/The-Next-Web-Repo/blob/main/LICENSE.md) for this project.
