@@ -1,4 +1,6 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
+# Clone of The Next Web
 
 > In this Project you can see number of Responsive Web Design examples.
 > In addition to this I have used grid and flex priperties in order to make it looks better.
@@ -43,16 +45,16 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👩🏻‍💼 **Author1**
+👩🏻‍💼 **Zulfizar Abdumurodova**
 
-- GitHub: [@AbdumurodovaZulfizar](https://github.com/AbdumurodovaZulfizar)
-- Twitter: [@Zulfiza70357085](https://twitter.com/Zulfiza70357085)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/zulfizar-abdumurodova-a61527206/)
+- GitHub: [Zulfizar Abdumurodova](https://github.com/AbdumurodovaZulfizar)
+- Twitter: [Zulfizar Abdumurodova](https://twitter.com/Zulfiza70357085)
+- LinkedIn: [Zulfizar Abdumurodova](https://www.linkedin.com/in/zulfizar-abdumurodova-a61527206/)
 
 🧑‍💼 **Author2**
 
-- GitHub: [@marcosmerida](https://github.com/marcosmerida)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/marcos-merida-219437206/)
+- GitHub: [Marcos Merida](https://github.com/marcosmerida)
+- LinkedIn: [Marcos Merida](https://www.linkedin.com/in/marcos-merida-219437206/)
 
 
 ## 🤝 Contributing
