@@ -7,9 +7,8 @@
 > You can see different types of tags like main, div, footer, img, p, a, head, body, table, ...
 > Below I attached three different appearance of the live page!
 
-![screenshot](./next-web-images/live-preview1.PNG)
-![screenshot](./next-web-images/live-.PNG)
-![screenshot](./next-web-images/live-preview2.PNG)
+![screenshot](./next-web-images/nextweb_01.PNG)
+![screenshot](./next-web-images/nextweb_02.PNG)
 
 ## Built With
 
