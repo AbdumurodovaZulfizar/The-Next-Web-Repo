@@ -258,7 +258,7 @@ footer {
 .mini-container1,
 .mini-container2,
 .mini-container3 {
-  margin: 10px 10px 10px 10px;
+  margin: 10px 0px 10px 0px;
   display: grid;
   grid-template-rows: 40% 60%;
 }
@@ -393,6 +393,7 @@ footer {
   width: 80px;
   height: 80px;
   order: 1;
+  padding-left: 5px;
 }
 
 .container3-items-row1 .container-images3 img {
@@ -502,7 +503,7 @@ hr {
 }
 
 .container2 {
-  margin: 60px 10px 60px 10px;
+  margin: 60px 0px 60px 0px;
   width: 100%;
   display: grid;
   grid-template-rows: auto auto auto;
@@ -681,7 +682,7 @@ hr {
 
 .container4 {
   width: 100%;
-  margin: 10px;
+  margin: 10px 0px 10px 0px;
   margin-bottom: 200px;
 }
 

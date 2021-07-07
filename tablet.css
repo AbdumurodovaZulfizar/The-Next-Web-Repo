@@ -53,19 +53,20 @@ header {
 
 .first-links {
   order: 1;
-  margin-left: 10px;
+  margin-left: 0px;
   margin-top: 5px;
 }
 
 .last-links {
   order: 2;
   float: right;
-  margin-right: 20px;
+  padding-right: 10px;
   margin-top: 5px;
 }
 
 .nav-links {
-  margin: 5px;
+  margin: 0px;
+  padding: 10px
   color: #fff9;
   text-decoration: none;
   font-size: 13px;
@@ -93,8 +94,9 @@ header {
 .firstword {
   color: #fff;
   font-size: 13px;
-  margin: 5px;
+  margin: 5px 0 5px 0;
   text-decoration: none;
+  padding-left: 10px;
 }
 
 .logo {
@@ -131,7 +133,8 @@ header {
 }
 
 .thirdheader p {
-  margin-left: 15px;
+  padding-left: 15px;
+  margin-left: 0px;
   color: black;
   font-size: 14px;
   font-family: "ARSMaquettePro-Regular", sans-serif;
@@ -146,7 +149,8 @@ header {
   display: table-row;
   text-decoration: none;
   margin-top: 10px;
-  margin-left: 15px;
+  margin-left: 0px;
+  padding-left: 10px;
   color: #666;
 }
 
@@ -168,6 +172,7 @@ header {
   width: 120%;
   height: 420px;
   margin-bottom: 200px;
+  padding-left:10px
 }
 
 .mini-container1 {
